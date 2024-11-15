@@ -1,6 +1,6 @@
 ## Description
 
-This is a process scanner for linux. It detects suspect processes and send a warning notification when a suspect process is detected
+This is a process scanner for linux. It detects suspect processes and send a warning notification when a suspect process is detected.
 
 ## Requirements
 
