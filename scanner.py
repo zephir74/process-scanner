@@ -11,4 +11,4 @@ while True:
     
     for process in sus_processes:
         if process in command.stdout:
-            subprocess.run(["zenity", "--warning", "--text=A suspect process has been detected running, please do a security check", "--icon=warning.jpg"], capture_output=True)
+            subprocess.run(["zenity", "--warning", "--text=A suspect process has been detected running, please do a security check"], capture_output=True)
