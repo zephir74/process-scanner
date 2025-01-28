@@ -3,7 +3,7 @@
 import subprocess
 import time
 
-sus_processes = ("smb", "ssh", "vnc", "ftp", "rdp", "telnet") # default processes but u can change them
+sus_processes = ("smb", "ssh", "vnc", "ftp", "telnet") # default processes but u can change them
 
 while True:
     time.sleep(1)
