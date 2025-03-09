@@ -2,6 +2,7 @@
 
 import subprocess
 import time
+from plyer import notification
 
 sus_processes = ("smb", "ssh", "vnc", "ftp", "telnet") # default processes but u can change them
 
@@ -11,4 +12,4 @@ while True:
     
     for process in sus_processes:
         if process in command.stdout:
-            subprocess.run(["zenity", "--warning", "--text=A suspect process has been detected running, please do a security check"], capture_output=True)
+            notification.notify(title="Suspect process", message="A suspect process has been detected running, please do a security check")
