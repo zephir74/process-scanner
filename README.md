@@ -8,4 +8,4 @@ Tested on Kali Linux 6.11.2-amd64 with python 3.13.0
 
 - python3 or higher
 
-- plyer (`sudo apt install python3-plyer)
+- plyer (`sudo apt install python3-plyer`)
