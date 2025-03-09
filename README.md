@@ -8,4 +8,4 @@ Tested on Kali Linux 6.11.2-amd64 with python 3.13.0
 
 - python3 or higher
 
-- zenity (sudo apt install zenity)
+- plyer (`sudo apt install python3-plyer)
